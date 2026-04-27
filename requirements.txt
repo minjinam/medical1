@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+pydantic==2.9.0
+
+# ── 실제 서비스 배포 시 추가 ──
+# anthropic             # Claude API (LLM 설명 생성)
+# google-cloud-vision   # OCR (처방전 텍스트 인식)
+# pytesseract           # 오프라인 OCR 대안
+# pillow                # 이미지 처리
+# sqlalchemy            # DB ORM (PostgreSQL 연동)
+# asyncpg               # PostgreSQL async 드라이버
+# redis                 # 세션/캐시
+# python-jose[cryptography]  # JWT 인증
+# passlib[bcrypt]       # 비밀번호 해싱
+# httpx                 # NHIS API 외부 호출
